@@ -36,5 +36,5 @@ class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
         instance = self.get_object()
         instance.delete()
         return Response(
-            {'message': f"User with username {instance.username} was successfully deleted."},
+            {'message': f"User with username | {instance.username} | was successfully deleted."},
             status=status.HTTP_204_NO_CONTENT)
