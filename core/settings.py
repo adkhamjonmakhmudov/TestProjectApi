@@ -66,7 +66,7 @@ SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'basic': {
             'type': 'basic',
-            'description': 'Phone number and password.'
+            'description': 'username and password.'
         },
         'Bearer': {
             'type': 'apiKey',
