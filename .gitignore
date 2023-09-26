@@ -169,3 +169,4 @@ venv/*
 .idea/*/*/*
 .idea**
 
+!core/.env
